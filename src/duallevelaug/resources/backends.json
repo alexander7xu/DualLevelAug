@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "note": "Source commits precede paper publication. Optional kernel sources are pinned independently. Python package pins are reproduction choices; transitive dependencies are resolved for the target platform.",
+  "backends": {
+    "pointcept": {
+      "url": "https://github.com/Pointcept/Pointcept.git",
+      "commit": "5b10bc05b0a3cab8cd5df5ebd142b56bb791ad15",
+      "python": "3.10",
+      "torch": "2.5.0+cu124",
+      "cuda": "12.4",
+      "submodules": {},
+      "extensions": [
+        "libs/pointops",
+        "libs/pointgroup_ops"
+      ],
+      "optional_sources": [
+        "ocnn",
+        "dwconv",
+        "minkowski",
+        "clip"
+      ],
+      "dependency_profile": "tool.duallevelaug.backends.pointcept"
+    },
+    "pointnext": {
+      "url": "https://github.com/guochengqian/PointNeXt.git",
+      "commit": "8a0ec91de5329b3b3e346422fa43a51ba24fd450",
+      "python": "3.7",
+      "torch": "1.10.1+cu113",
+      "cuda": "11.3",
+      "submodules": {
+        "openpoints": "baeca5e319aa2e756d179e494469eb7f5ffd29f0"
+      },
+      "extensions": [
+        "openpoints/cpp/pointnet2_batch",
+        "openpoints/cpp/pointops",
+        "openpoints/cpp/chamfer_dist"
+      ],
+      "dependency_profile": "tool.duallevelaug.backends.pointnext"
+    },
+    "sphereformer": {
+      "url": "https://github.com/JIA-Lab-research/SphereFormer.git",
+      "commit": "0ff1e0ae84a4280fbecc9cfc3ac3aec41d24eeba",
+      "python": "3.7.9",
+      "torch": "1.8.0+cu111",
+      "cuda": "11.1",
+      "submodules": {},
+      "vendored_trees": {
+        "third_party/SparseTransformer": "4ab1f016d87aabdaf9b4f91c64dd70c030bf45ee"
+      },
+      "extensions": [
+        "third_party/SparseTransformer"
+      ],
+      "dependency_profile": "tool.duallevelaug.backends.sphereformer"
+    }
+  },
+  "optional_sources": {
+    "ocnn": {
+      "url": "https://github.com/octree-nn/ocnn-pytorch.git",
+      "commit": "a0e2717427f79efaee82a680c0de7c445c7e3fb6"
+    },
+    "dwconv": {
+      "url": "https://github.com/octree-nn/dwconv.git",
+      "commit": "ae53057eaf36dab01aa2727fcc93a749fd995af5"
+    },
+    "minkowski": {
+      "url": "https://github.com/NVIDIA/MinkowskiEngine.git",
+      "commit": "9f81ae66b33b883cd08ee4f64d08cf633608b118"
+    },
+    "clip": {
+      "url": "https://github.com/openai/CLIP.git",
+      "commit": "dcba3cb2e2827b402d2701e7e1c7d9fed8a20ef1"
+    }
+  }
+}

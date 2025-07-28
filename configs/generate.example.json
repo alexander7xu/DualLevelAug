@@ -1,0 +1,1 @@
+{"dataset":"s3dis","stats":"artifacts/s3dis/stats/stats.json","graph_checkpoint":"artifacts/s3dis/graph/graph.pt","output":"artifacts/s3dis/generated","seed":0,"ratio":0.25,"constraints":"full","poisson":true,"gt_sampling":false,"steps":300,"pose_lr":0.03}

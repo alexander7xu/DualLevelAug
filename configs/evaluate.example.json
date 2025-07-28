@@ -1,0 +1,1 @@
+{"dataset":"s3dis","model":"ptv3","manifest":"data/s3dis/manifest.json","checkpoint":"artifacts/s3dis/ptv3/model.pt","output":"artifacts/s3dis/evaluation","backend_root":"external/pointcept","python":"/opt/conda/envs/dla-pointcept/bin/python","seed":0,"eval_split":"val"}

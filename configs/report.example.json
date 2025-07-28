@@ -1,0 +1,8 @@
+{
+  "root": ".",
+  "selector": "table2.ptv3.ours.s3dis",
+  "results": {
+    "table2.ptv3.ours.s3dis": "artifacts/s3dis/evaluation/metrics.json"
+  },
+  "output": "artifacts/reports"
+}

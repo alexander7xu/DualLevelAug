@@ -1,0 +1,2647 @@
+{
+  "schema_version": 1,
+  "source": "https://arxiv.org/html/2507.22668v1",
+  "experiments": [
+    {
+      "id": "table2.pointnext-xl.baseline.scannet",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "scannet",
+        "model": "pointnext-xl",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": true,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.pointnext-xl.baseline.scannet.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.pointnext-xl.baseline.s3dis",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "pointnext-xl",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.pointnext-xl.baseline.s3dis.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.minkunet.baseline.scannet",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "scannet",
+        "model": "minkunet",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": true,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.minkunet.baseline.scannet.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.minkunet.baseline.s3dis",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "minkunet",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.minkunet.baseline.s3dis.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.minkunet.baseline.semantickitti",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "minkunet",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.minkunet.baseline.semantickitti.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.sphereformer.baseline.semantickitti",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "sphereformer",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.sphereformer.baseline.semantickitti.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.ptv2.baseline.scannet",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "scannet",
+        "model": "ptv2",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": true,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.ptv2.baseline.scannet.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.ptv2.baseline.s3dis",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv2",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.ptv2.baseline.s3dis.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.ptv2.baseline.semantickitti",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "ptv2",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.ptv2.baseline.semantickitti.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.octformer.baseline.scannet",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "scannet",
+        "model": "octformer",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": true,
+        "protocol": "standard",
+        "mix3d": false
+      },
+      "cells": [
+        {
+          "id": "table2.octformer.baseline.scannet.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.octformer.baseline.s3dis",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "octformer",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "mix3d": false
+      },
+      "cells": [
+        {
+          "id": "table2.octformer.baseline.s3dis.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.octformer.baseline.semantickitti",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "octformer",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "mix3d": false
+      },
+      "cells": [
+        {
+          "id": "table2.octformer.baseline.semantickitti.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.octformer.mix3d.scannet",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "scannet",
+        "model": "octformer",
+        "variant": "mix3d",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": true,
+        "protocol": "standard",
+        "mix3d": true
+      },
+      "cells": [
+        {
+          "id": "table2.octformer.mix3d.scannet.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.octformer.mix3d.s3dis",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "octformer",
+        "variant": "mix3d",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "mix3d": true
+      },
+      "cells": [
+        {
+          "id": "table2.octformer.mix3d.s3dis.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.octformer.mix3d.semantickitti",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "octformer",
+        "variant": "mix3d",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "mix3d": true
+      },
+      "cells": [
+        {
+          "id": "table2.octformer.mix3d.semantickitti.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.ptv3.baseline.scannet",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "scannet",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": true,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.ptv3.baseline.scannet.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.ptv3.baseline.s3dis",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.ptv3.baseline.s3dis.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.ptv3.baseline.semantickitti",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.ptv3.baseline.semantickitti.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.octformer.ours.scannet",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "scannet",
+        "model": "octformer",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": true,
+        "protocol": "standard",
+        "mix3d": false
+      },
+      "cells": [
+        {
+          "id": "table2.octformer.ours.scannet.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.octformer.ours.s3dis",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "octformer",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "mix3d": false
+      },
+      "cells": [
+        {
+          "id": "table2.octformer.ours.s3dis.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.octformer.ours.semantickitti",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "octformer",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "mix3d": false
+      },
+      "cells": [
+        {
+          "id": "table2.octformer.ours.semantickitti.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.ptv3.ours.scannet",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "scannet",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": true,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.ptv3.ours.scannet.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.ptv3.ours.s3dis",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.ptv3.ours.s3dis.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table2.ptv3.ours.semantickitti",
+      "paper": "table2",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table2.ptv3.ours.semantickitti.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table3.s3dis.random.25",
+      "paper": "table3",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "random",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table3.s3dis.random.25.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table3.s3dis.geometric.25",
+      "paper": "table3",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "geometric",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table3.s3dis.geometric.25.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table3.s3dis.local.25",
+      "paper": "table3",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "local",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table3.s3dis.local.25.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table3.s3dis.full.10",
+      "paper": "table3",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.1,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table3.s3dis.full.10.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table3.s3dis.full.50",
+      "paper": "table3",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.5,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table3.s3dis.full.50.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table3.s3dis.full.25",
+      "paper": "table3",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table3.s3dis.full.25.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table3.semantickitti.random.25",
+      "paper": "table3",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "random",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table3.semantickitti.random.25.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table3.semantickitti.geometric.25",
+      "paper": "table3",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "geometric",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table3.semantickitti.geometric.25.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table3.semantickitti.local.25",
+      "paper": "table3",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "local",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table3.semantickitti.local.25.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table3.semantickitti.full.10",
+      "paper": "table3",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.1,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table3.semantickitti.full.10.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table3.semantickitti.full.50",
+      "paper": "table3",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.5,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table3.semantickitti.full.50.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table3.semantickitti.full.25",
+      "paper": "table3",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table3.semantickitti.full.25.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area1.before",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 1,
+        "eval_source": "original",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area1.before.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area1.before.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area1.after",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 1,
+        "eval_source": "original",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area1.after.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area1.after.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area1.generated",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 1,
+        "eval_source": "generated",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area1.generated.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area1.generated.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area2.before",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 2,
+        "eval_source": "original",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area2.before.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area2.before.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area2.after",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 2,
+        "eval_source": "original",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area2.after.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area2.after.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area2.generated",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 2,
+        "eval_source": "generated",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area2.generated.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area2.generated.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area3.before",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 3,
+        "eval_source": "original",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area3.before.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area3.before.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area3.after",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 3,
+        "eval_source": "original",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area3.after.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area3.after.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area3.generated",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 3,
+        "eval_source": "generated",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area3.generated.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area3.generated.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area4.before",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 4,
+        "eval_source": "original",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area4.before.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area4.before.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area4.after",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 4,
+        "eval_source": "original",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area4.after.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area4.after.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area4.generated",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 4,
+        "eval_source": "generated",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area4.generated.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area4.generated.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area5.before",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 5,
+        "eval_source": "original",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area5.before.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area5.before.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area5.after",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 5,
+        "eval_source": "original",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area5.after.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area5.after.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area6.before",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 6,
+        "eval_source": "original",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area6.before.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area6.before.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area6.after",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 6,
+        "eval_source": "original",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area6.after.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area6.after.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table4.area6.generated",
+      "paper": "table4",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard",
+        "eval_area": 6,
+        "eval_source": "generated",
+        "eval_split": "all"
+      },
+      "cells": [
+        {
+          "id": "table4.area6.generated.allacc",
+          "metric": "allacc",
+          "label": "allacc"
+        },
+        {
+          "id": "table4.area6.generated.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table5.scannet",
+      "paper": "table5",
+      "kind": "statistics",
+      "config": {
+        "dataset": "scannet",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": true,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table5.scannet.decomposition.floor",
+          "metric": "decomposition.floor",
+          "label": "decomposition.floor"
+        },
+        {
+          "id": "table5.scannet.decomposition.background",
+          "metric": "decomposition.background",
+          "label": "decomposition.background"
+        },
+        {
+          "id": "table5.scannet.decomposition.foreground",
+          "metric": "decomposition.foreground",
+          "label": "decomposition.foreground"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table5.s3dis",
+      "paper": "table5",
+      "kind": "statistics",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table5.s3dis.decomposition.floor",
+          "metric": "decomposition.floor",
+          "label": "decomposition.floor"
+        },
+        {
+          "id": "table5.s3dis.decomposition.background",
+          "metric": "decomposition.background",
+          "label": "decomposition.background"
+        },
+        {
+          "id": "table5.s3dis.decomposition.foreground",
+          "metric": "decomposition.foreground",
+          "label": "decomposition.foreground"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table5.semantickitti",
+      "paper": "table5",
+      "kind": "statistics",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table5.semantickitti.decomposition.floor",
+          "metric": "decomposition.floor",
+          "label": "decomposition.floor"
+        },
+        {
+          "id": "table5.semantickitti.decomposition.background",
+          "metric": "decomposition.background",
+          "label": "decomposition.background"
+        },
+        {
+          "id": "table5.semantickitti.decomposition.foreground",
+          "metric": "decomposition.foreground",
+          "label": "decomposition.foreground"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table6.synthetic_to_wmsc.0",
+      "paper": "table6",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "stpls3d",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "cross-domain",
+        "eval_split": "test"
+      },
+      "cells": [
+        {
+          "id": "table6.synthetic_to_wmsc.0.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table6.synthetic_to_wmsc.10",
+      "paper": "table6",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "stpls3d",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.1,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "cross-domain",
+        "eval_split": "test"
+      },
+      "cells": [
+        {
+          "id": "table6.synthetic_to_wmsc.10.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table6.synthetic_to_wmsc.25",
+      "paper": "table6",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "stpls3d",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "cross-domain",
+        "eval_split": "test"
+      },
+      "cells": [
+        {
+          "id": "table6.synthetic_to_wmsc.25.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table6.synthetic_in_domain.0",
+      "paper": "table6",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "stpls3d",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "in-domain",
+        "eval_split": "test"
+      },
+      "cells": [
+        {
+          "id": "table6.synthetic_in_domain.0.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table6.synthetic_in_domain.10",
+      "paper": "table6",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "stpls3d",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.1,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "in-domain",
+        "eval_split": "test"
+      },
+      "cells": [
+        {
+          "id": "table6.synthetic_in_domain.10.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table6.synthetic_in_domain.25",
+      "paper": "table6",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "stpls3d",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "in-domain",
+        "eval_split": "test"
+      },
+      "cells": [
+        {
+          "id": "table6.synthetic_in_domain.25.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table7.scannet",
+      "paper": "table7",
+      "kind": "statistics",
+      "config": {
+        "dataset": "scannet",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": true,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table7.scannet.relationships.furniture_instances.total",
+          "metric": "relationships.furniture_instances.total",
+          "label": "relationships.furniture_instances.total"
+        },
+        {
+          "id": "table7.scannet.relationships.furniture_instances.mean",
+          "metric": "relationships.furniture_instances.mean",
+          "label": "relationships.furniture_instances.mean"
+        },
+        {
+          "id": "table7.scannet.relationships.supported_by.total",
+          "metric": "relationships.supported_by.total",
+          "label": "relationships.supported_by.total"
+        },
+        {
+          "id": "table7.scannet.relationships.supported_by.mean",
+          "metric": "relationships.supported_by.mean",
+          "label": "relationships.supported_by.mean"
+        },
+        {
+          "id": "table7.scannet.relationships.attached_to.total",
+          "metric": "relationships.attached_to.total",
+          "label": "relationships.attached_to.total"
+        },
+        {
+          "id": "table7.scannet.relationships.attached_to.mean",
+          "metric": "relationships.attached_to.mean",
+          "label": "relationships.attached_to.mean"
+        },
+        {
+          "id": "table7.scannet.relationships.left_of.total",
+          "metric": "relationships.left_of.total",
+          "label": "relationships.left_of.total"
+        },
+        {
+          "id": "table7.scannet.relationships.left_of.mean",
+          "metric": "relationships.left_of.mean",
+          "label": "relationships.left_of.mean"
+        },
+        {
+          "id": "table7.scannet.relationships.right_of.total",
+          "metric": "relationships.right_of.total",
+          "label": "relationships.right_of.total"
+        },
+        {
+          "id": "table7.scannet.relationships.right_of.mean",
+          "metric": "relationships.right_of.mean",
+          "label": "relationships.right_of.mean"
+        },
+        {
+          "id": "table7.scannet.relationships.nearby.total",
+          "metric": "relationships.nearby.total",
+          "label": "relationships.nearby.total"
+        },
+        {
+          "id": "table7.scannet.relationships.nearby.mean",
+          "metric": "relationships.nearby.mean",
+          "label": "relationships.nearby.mean"
+        },
+        {
+          "id": "table7.scannet.relationships.faces.total",
+          "metric": "relationships.faces.total",
+          "label": "relationships.faces.total"
+        },
+        {
+          "id": "table7.scannet.relationships.faces.mean",
+          "metric": "relationships.faces.mean",
+          "label": "relationships.faces.mean"
+        },
+        {
+          "id": "table7.scannet.relationships.oriented_with.total",
+          "metric": "relationships.oriented_with.total",
+          "label": "relationships.oriented_with.total"
+        },
+        {
+          "id": "table7.scannet.relationships.oriented_with.mean",
+          "metric": "relationships.oriented_with.mean",
+          "label": "relationships.oriented_with.mean"
+        },
+        {
+          "id": "table7.scannet.relationships.none.total",
+          "metric": "relationships.none.total",
+          "label": "relationships.none.total"
+        },
+        {
+          "id": "table7.scannet.relationships.none.mean",
+          "metric": "relationships.none.mean",
+          "label": "relationships.none.mean"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table7.s3dis",
+      "paper": "table7",
+      "kind": "statistics",
+      "config": {
+        "dataset": "s3dis",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table7.s3dis.relationships.furniture_instances.total",
+          "metric": "relationships.furniture_instances.total",
+          "label": "relationships.furniture_instances.total"
+        },
+        {
+          "id": "table7.s3dis.relationships.furniture_instances.mean",
+          "metric": "relationships.furniture_instances.mean",
+          "label": "relationships.furniture_instances.mean"
+        },
+        {
+          "id": "table7.s3dis.relationships.supported_by.total",
+          "metric": "relationships.supported_by.total",
+          "label": "relationships.supported_by.total"
+        },
+        {
+          "id": "table7.s3dis.relationships.supported_by.mean",
+          "metric": "relationships.supported_by.mean",
+          "label": "relationships.supported_by.mean"
+        },
+        {
+          "id": "table7.s3dis.relationships.attached_to.total",
+          "metric": "relationships.attached_to.total",
+          "label": "relationships.attached_to.total"
+        },
+        {
+          "id": "table7.s3dis.relationships.attached_to.mean",
+          "metric": "relationships.attached_to.mean",
+          "label": "relationships.attached_to.mean"
+        },
+        {
+          "id": "table7.s3dis.relationships.left_of.total",
+          "metric": "relationships.left_of.total",
+          "label": "relationships.left_of.total"
+        },
+        {
+          "id": "table7.s3dis.relationships.left_of.mean",
+          "metric": "relationships.left_of.mean",
+          "label": "relationships.left_of.mean"
+        },
+        {
+          "id": "table7.s3dis.relationships.right_of.total",
+          "metric": "relationships.right_of.total",
+          "label": "relationships.right_of.total"
+        },
+        {
+          "id": "table7.s3dis.relationships.right_of.mean",
+          "metric": "relationships.right_of.mean",
+          "label": "relationships.right_of.mean"
+        },
+        {
+          "id": "table7.s3dis.relationships.nearby.total",
+          "metric": "relationships.nearby.total",
+          "label": "relationships.nearby.total"
+        },
+        {
+          "id": "table7.s3dis.relationships.nearby.mean",
+          "metric": "relationships.nearby.mean",
+          "label": "relationships.nearby.mean"
+        },
+        {
+          "id": "table7.s3dis.relationships.faces.total",
+          "metric": "relationships.faces.total",
+          "label": "relationships.faces.total"
+        },
+        {
+          "id": "table7.s3dis.relationships.faces.mean",
+          "metric": "relationships.faces.mean",
+          "label": "relationships.faces.mean"
+        },
+        {
+          "id": "table7.s3dis.relationships.oriented_with.total",
+          "metric": "relationships.oriented_with.total",
+          "label": "relationships.oriented_with.total"
+        },
+        {
+          "id": "table7.s3dis.relationships.oriented_with.mean",
+          "metric": "relationships.oriented_with.mean",
+          "label": "relationships.oriented_with.mean"
+        },
+        {
+          "id": "table7.s3dis.relationships.none.total",
+          "metric": "relationships.none.total",
+          "label": "relationships.none.total"
+        },
+        {
+          "id": "table7.s3dis.relationships.none.mean",
+          "metric": "relationships.none.mean",
+          "label": "relationships.none.mean"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table7.semantickitti",
+      "paper": "table7",
+      "kind": "statistics",
+      "config": {
+        "dataset": "semantickitti",
+        "model": "ptv3",
+        "variant": "baseline",
+        "ratio": 0.0,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table7.semantickitti.relationships.furniture_instances.total",
+          "metric": "relationships.furniture_instances.total",
+          "label": "relationships.furniture_instances.total"
+        },
+        {
+          "id": "table7.semantickitti.relationships.furniture_instances.mean",
+          "metric": "relationships.furniture_instances.mean",
+          "label": "relationships.furniture_instances.mean"
+        },
+        {
+          "id": "table7.semantickitti.relationships.supported_by.total",
+          "metric": "relationships.supported_by.total",
+          "label": "relationships.supported_by.total"
+        },
+        {
+          "id": "table7.semantickitti.relationships.supported_by.mean",
+          "metric": "relationships.supported_by.mean",
+          "label": "relationships.supported_by.mean"
+        },
+        {
+          "id": "table7.semantickitti.relationships.attached_to.total",
+          "metric": "relationships.attached_to.total",
+          "label": "relationships.attached_to.total"
+        },
+        {
+          "id": "table7.semantickitti.relationships.attached_to.mean",
+          "metric": "relationships.attached_to.mean",
+          "label": "relationships.attached_to.mean"
+        },
+        {
+          "id": "table7.semantickitti.relationships.left_of.total",
+          "metric": "relationships.left_of.total",
+          "label": "relationships.left_of.total"
+        },
+        {
+          "id": "table7.semantickitti.relationships.left_of.mean",
+          "metric": "relationships.left_of.mean",
+          "label": "relationships.left_of.mean"
+        },
+        {
+          "id": "table7.semantickitti.relationships.right_of.total",
+          "metric": "relationships.right_of.total",
+          "label": "relationships.right_of.total"
+        },
+        {
+          "id": "table7.semantickitti.relationships.right_of.mean",
+          "metric": "relationships.right_of.mean",
+          "label": "relationships.right_of.mean"
+        },
+        {
+          "id": "table7.semantickitti.relationships.nearby.total",
+          "metric": "relationships.nearby.total",
+          "label": "relationships.nearby.total"
+        },
+        {
+          "id": "table7.semantickitti.relationships.nearby.mean",
+          "metric": "relationships.nearby.mean",
+          "label": "relationships.nearby.mean"
+        },
+        {
+          "id": "table7.semantickitti.relationships.faces.total",
+          "metric": "relationships.faces.total",
+          "label": "relationships.faces.total"
+        },
+        {
+          "id": "table7.semantickitti.relationships.faces.mean",
+          "metric": "relationships.faces.mean",
+          "label": "relationships.faces.mean"
+        },
+        {
+          "id": "table7.semantickitti.relationships.oriented_with.total",
+          "metric": "relationships.oriented_with.total",
+          "label": "relationships.oriented_with.total"
+        },
+        {
+          "id": "table7.semantickitti.relationships.oriented_with.mean",
+          "metric": "relationships.oriented_with.mean",
+          "label": "relationships.oriented_with.mean"
+        },
+        {
+          "id": "table7.semantickitti.relationships.none.total",
+          "metric": "relationships.none.total",
+          "label": "relationships.none.total"
+        },
+        {
+          "id": "table7.semantickitti.relationships.none.mean",
+          "metric": "relationships.none.mean",
+          "label": "relationships.none.mean"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table8.poisson_false",
+      "paper": "table8",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "scannet",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": false,
+        "gt_sampling": true,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table8.poisson_false.per_class_iou.wall",
+          "metric": "per_class_iou.wall",
+          "label": "per_class_iou.wall"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.floor",
+          "metric": "per_class_iou.floor",
+          "label": "per_class_iou.floor"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.cabinet",
+          "metric": "per_class_iou.cabinet",
+          "label": "per_class_iou.cabinet"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.bed",
+          "metric": "per_class_iou.bed",
+          "label": "per_class_iou.bed"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.chair",
+          "metric": "per_class_iou.chair",
+          "label": "per_class_iou.chair"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.sofa",
+          "metric": "per_class_iou.sofa",
+          "label": "per_class_iou.sofa"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.table",
+          "metric": "per_class_iou.table",
+          "label": "per_class_iou.table"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.door",
+          "metric": "per_class_iou.door",
+          "label": "per_class_iou.door"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.window",
+          "metric": "per_class_iou.window",
+          "label": "per_class_iou.window"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.bookshelf",
+          "metric": "per_class_iou.bookshelf",
+          "label": "per_class_iou.bookshelf"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.picture",
+          "metric": "per_class_iou.picture",
+          "label": "per_class_iou.picture"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.counter",
+          "metric": "per_class_iou.counter",
+          "label": "per_class_iou.counter"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.desk",
+          "metric": "per_class_iou.desk",
+          "label": "per_class_iou.desk"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.curtain",
+          "metric": "per_class_iou.curtain",
+          "label": "per_class_iou.curtain"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.refrigerator",
+          "metric": "per_class_iou.refrigerator",
+          "label": "per_class_iou.refrigerator"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.shower_curtain",
+          "metric": "per_class_iou.shower_curtain",
+          "label": "per_class_iou.shower_curtain"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.toilet",
+          "metric": "per_class_iou.toilet",
+          "label": "per_class_iou.toilet"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.sink",
+          "metric": "per_class_iou.sink",
+          "label": "per_class_iou.sink"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.bathtub",
+          "metric": "per_class_iou.bathtub",
+          "label": "per_class_iou.bathtub"
+        },
+        {
+          "id": "table8.poisson_false.per_class_iou.otherfurniture",
+          "metric": "per_class_iou.otherfurniture",
+          "label": "per_class_iou.otherfurniture"
+        },
+        {
+          "id": "table8.poisson_false.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table8.poisson_true",
+      "paper": "table8",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "scannet",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": true,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table8.poisson_true.per_class_iou.wall",
+          "metric": "per_class_iou.wall",
+          "label": "per_class_iou.wall"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.floor",
+          "metric": "per_class_iou.floor",
+          "label": "per_class_iou.floor"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.cabinet",
+          "metric": "per_class_iou.cabinet",
+          "label": "per_class_iou.cabinet"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.bed",
+          "metric": "per_class_iou.bed",
+          "label": "per_class_iou.bed"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.chair",
+          "metric": "per_class_iou.chair",
+          "label": "per_class_iou.chair"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.sofa",
+          "metric": "per_class_iou.sofa",
+          "label": "per_class_iou.sofa"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.table",
+          "metric": "per_class_iou.table",
+          "label": "per_class_iou.table"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.door",
+          "metric": "per_class_iou.door",
+          "label": "per_class_iou.door"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.window",
+          "metric": "per_class_iou.window",
+          "label": "per_class_iou.window"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.bookshelf",
+          "metric": "per_class_iou.bookshelf",
+          "label": "per_class_iou.bookshelf"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.picture",
+          "metric": "per_class_iou.picture",
+          "label": "per_class_iou.picture"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.counter",
+          "metric": "per_class_iou.counter",
+          "label": "per_class_iou.counter"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.desk",
+          "metric": "per_class_iou.desk",
+          "label": "per_class_iou.desk"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.curtain",
+          "metric": "per_class_iou.curtain",
+          "label": "per_class_iou.curtain"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.refrigerator",
+          "metric": "per_class_iou.refrigerator",
+          "label": "per_class_iou.refrigerator"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.shower_curtain",
+          "metric": "per_class_iou.shower_curtain",
+          "label": "per_class_iou.shower_curtain"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.toilet",
+          "metric": "per_class_iou.toilet",
+          "label": "per_class_iou.toilet"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.sink",
+          "metric": "per_class_iou.sink",
+          "label": "per_class_iou.sink"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.bathtub",
+          "metric": "per_class_iou.bathtub",
+          "label": "per_class_iou.bathtub"
+        },
+        {
+          "id": "table8.poisson_true.per_class_iou.otherfurniture",
+          "metric": "per_class_iou.otherfurniture",
+          "label": "per_class_iou.otherfurniture"
+        },
+        {
+          "id": "table8.poisson_true.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table9.gt_sampling_false",
+      "paper": "table9",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "scannet",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": false,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.wall",
+          "metric": "per_class_iou.wall",
+          "label": "per_class_iou.wall"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.floor",
+          "metric": "per_class_iou.floor",
+          "label": "per_class_iou.floor"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.cabinet",
+          "metric": "per_class_iou.cabinet",
+          "label": "per_class_iou.cabinet"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.bed",
+          "metric": "per_class_iou.bed",
+          "label": "per_class_iou.bed"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.chair",
+          "metric": "per_class_iou.chair",
+          "label": "per_class_iou.chair"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.sofa",
+          "metric": "per_class_iou.sofa",
+          "label": "per_class_iou.sofa"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.table",
+          "metric": "per_class_iou.table",
+          "label": "per_class_iou.table"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.door",
+          "metric": "per_class_iou.door",
+          "label": "per_class_iou.door"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.window",
+          "metric": "per_class_iou.window",
+          "label": "per_class_iou.window"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.bookshelf",
+          "metric": "per_class_iou.bookshelf",
+          "label": "per_class_iou.bookshelf"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.picture",
+          "metric": "per_class_iou.picture",
+          "label": "per_class_iou.picture"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.counter",
+          "metric": "per_class_iou.counter",
+          "label": "per_class_iou.counter"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.desk",
+          "metric": "per_class_iou.desk",
+          "label": "per_class_iou.desk"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.curtain",
+          "metric": "per_class_iou.curtain",
+          "label": "per_class_iou.curtain"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.refrigerator",
+          "metric": "per_class_iou.refrigerator",
+          "label": "per_class_iou.refrigerator"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.shower_curtain",
+          "metric": "per_class_iou.shower_curtain",
+          "label": "per_class_iou.shower_curtain"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.toilet",
+          "metric": "per_class_iou.toilet",
+          "label": "per_class_iou.toilet"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.sink",
+          "metric": "per_class_iou.sink",
+          "label": "per_class_iou.sink"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.bathtub",
+          "metric": "per_class_iou.bathtub",
+          "label": "per_class_iou.bathtub"
+        },
+        {
+          "id": "table9.gt_sampling_false.per_class_iou.otherfurniture",
+          "metric": "per_class_iou.otherfurniture",
+          "label": "per_class_iou.otherfurniture"
+        },
+        {
+          "id": "table9.gt_sampling_false.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "table9.gt_sampling_true",
+      "paper": "table9",
+      "kind": "evaluation",
+      "config": {
+        "dataset": "scannet",
+        "model": "ptv3",
+        "variant": "ours",
+        "ratio": 0.25,
+        "seed": 0,
+        "constraints": "full",
+        "poisson": true,
+        "gt_sampling": true,
+        "protocol": "standard"
+      },
+      "cells": [
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.wall",
+          "metric": "per_class_iou.wall",
+          "label": "per_class_iou.wall"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.floor",
+          "metric": "per_class_iou.floor",
+          "label": "per_class_iou.floor"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.cabinet",
+          "metric": "per_class_iou.cabinet",
+          "label": "per_class_iou.cabinet"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.bed",
+          "metric": "per_class_iou.bed",
+          "label": "per_class_iou.bed"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.chair",
+          "metric": "per_class_iou.chair",
+          "label": "per_class_iou.chair"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.sofa",
+          "metric": "per_class_iou.sofa",
+          "label": "per_class_iou.sofa"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.table",
+          "metric": "per_class_iou.table",
+          "label": "per_class_iou.table"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.door",
+          "metric": "per_class_iou.door",
+          "label": "per_class_iou.door"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.window",
+          "metric": "per_class_iou.window",
+          "label": "per_class_iou.window"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.bookshelf",
+          "metric": "per_class_iou.bookshelf",
+          "label": "per_class_iou.bookshelf"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.picture",
+          "metric": "per_class_iou.picture",
+          "label": "per_class_iou.picture"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.counter",
+          "metric": "per_class_iou.counter",
+          "label": "per_class_iou.counter"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.desk",
+          "metric": "per_class_iou.desk",
+          "label": "per_class_iou.desk"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.curtain",
+          "metric": "per_class_iou.curtain",
+          "label": "per_class_iou.curtain"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.refrigerator",
+          "metric": "per_class_iou.refrigerator",
+          "label": "per_class_iou.refrigerator"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.shower_curtain",
+          "metric": "per_class_iou.shower_curtain",
+          "label": "per_class_iou.shower_curtain"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.toilet",
+          "metric": "per_class_iou.toilet",
+          "label": "per_class_iou.toilet"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.sink",
+          "metric": "per_class_iou.sink",
+          "label": "per_class_iou.sink"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.bathtub",
+          "metric": "per_class_iou.bathtub",
+          "label": "per_class_iou.bathtub"
+        },
+        {
+          "id": "table9.gt_sampling_true.per_class_iou.otherfurniture",
+          "metric": "per_class_iou.otherfurniture",
+          "label": "per_class_iou.otherfurniture"
+        },
+        {
+          "id": "table9.gt_sampling_true.miou",
+          "metric": "miou",
+          "label": "miou"
+        }
+      ],
+      "plot": "table"
+    },
+    {
+      "id": "figure1",
+      "paper": "figure1",
+      "kind": "figure",
+      "config": {
+        "figure": "figure1",
+        "seed": 0
+      },
+      "cells": [],
+      "plot": "figure1",
+      "sources": []
+    },
+    {
+      "id": "figure2",
+      "paper": "figure2",
+      "kind": "figure",
+      "config": {
+        "figure": "figure2",
+        "seed": 0
+      },
+      "cells": [],
+      "plot": "figure2",
+      "sources": []
+    },
+    {
+      "id": "figure3",
+      "paper": "figure3",
+      "kind": "figure",
+      "config": {
+        "figure": "figure3",
+        "seed": 0
+      },
+      "cells": [],
+      "plot": "figure3",
+      "sources": []
+    },
+    {
+      "id": "figure4",
+      "paper": "figure4",
+      "kind": "figure",
+      "config": {
+        "figure": "figure4",
+        "seed": 0
+      },
+      "cells": [],
+      "plot": "figure4",
+      "sources": [
+        "table2.octformer.ours.s3dis",
+        "table2.octformer.ours.semantickitti"
+      ]
+    },
+    {
+      "id": "figure5",
+      "paper": "figure5",
+      "kind": "figure",
+      "config": {
+        "figure": "figure5",
+        "seed": 0
+      },
+      "cells": [],
+      "plot": "figure5",
+      "sources": [
+        "table2.ptv3.ours.s3dis"
+      ]
+    },
+    {
+      "id": "figure6",
+      "paper": "figure6",
+      "kind": "figure",
+      "config": {
+        "figure": "figure6",
+        "seed": 0
+      },
+      "cells": [],
+      "plot": "figure6",
+      "sources": [
+        "table2.ptv3.ours.scannet"
+      ]
+    },
+    {
+      "id": "figure7",
+      "paper": "figure7",
+      "kind": "figure",
+      "config": {
+        "figure": "figure7",
+        "seed": 0
+      },
+      "cells": [],
+      "plot": "figure7",
+      "sources": [
+        "table6.synthetic_to_wmsc.25"
+      ]
+    },
+    {
+      "id": "figure8",
+      "paper": "figure8",
+      "kind": "figure",
+      "config": {
+        "figure": "figure8",
+        "seed": 0
+      },
+      "cells": [],
+      "plot": "figure8",
+      "sources": [
+        "table7.scannet"
+      ]
+    },
+    {
+      "id": "figure9",
+      "paper": "figure9",
+      "kind": "figure",
+      "config": {
+        "figure": "figure9",
+        "seed": 0
+      },
+      "cells": [],
+      "plot": "figure9",
+      "sources": [
+        "table8.poisson_true"
+      ]
+    },
+    {
+      "id": "figure10",
+      "paper": "figure10",
+      "kind": "figure",
+      "config": {
+        "figure": "figure10",
+        "seed": 0
+      },
+      "cells": [],
+      "plot": "figure10",
+      "sources": [
+        "table8.*"
+      ]
+    },
+    {
+      "id": "figure11",
+      "paper": "figure11",
+      "kind": "figure",
+      "config": {
+        "figure": "figure11",
+        "seed": 0
+      },
+      "cells": [],
+      "plot": "figure11",
+      "sources": [
+        "table9.*"
+      ]
+    }
+  ]
+}

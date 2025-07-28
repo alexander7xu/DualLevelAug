@@ -1,0 +1,1 @@
+{"dataset":"s3dis","stats":"artifacts/s3dis/stats/stats.json","output":"artifacts/s3dis/graph","seed":0,"graph":{"hidden":128,"layers":3,"mask_ratio":0.2,"epochs":100,"lr":0.001}}

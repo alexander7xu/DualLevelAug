@@ -1,0 +1,14 @@
+{
+  "seed": 0,
+  "backends": {
+    "pointcept": {"python": "/opt/conda/envs/dla-pointcept/bin/python", "root": "external/pointcept"},
+    "pointnext": {"python": "/opt/conda/envs/dla-pointnext/bin/python", "root": "external/pointnext"},
+    "sphereformer": {"python": "/opt/conda/envs/dla-sphereformer/bin/python", "root": "external/sphereformer"}
+  },
+  "datasets": {
+    "scannet": {"raw_root": "data/raw/scannet"},
+    "s3dis": {"raw_root": "data/raw/s3dis"},
+    "semantickitti": {"raw_root": "data/raw/semantickitti"},
+    "stpls3d": {"raw_root": "data/raw/stpls3d"}
+  }
+}

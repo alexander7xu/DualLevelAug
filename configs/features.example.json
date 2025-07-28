@@ -1,0 +1,1 @@
+{"dataset":"s3dis","model":"pointnet2","manifest":"data/s3dis/manifest.json","generated_manifest":"artifacts/s3dis/generated/manifest.json","checkpoint":"artifacts/s3dis/pointnet2/model.pt","output":"artifacts/s3dis/features","backend_root":"external/pointnext","python":"/opt/conda/envs/dla-pointnext/bin/python","seed":0}
